@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./style.css">
+  <title>Test</title>
+</head>
+
+<body onload="pageLoad()">
+  <div id="main">
+    <div class="test-title">
+      <h1>Тест</h1>
+    </div>
+    <div id="test">
+      <div id="progress-bar">
+        <div id="progress" style="width: 3.33333%;"></div>
+      </div>
+      <div id="test-questions">
+        
+      </div>
+      <div id="question">
+        <div class="question-title">
+          <h2>Завдання №1</h2>
+        </div>
+        <div class="question-content">
+          <p>
+
+          </p>
+        </div>
+        <div class="question-answers">
+          <div id="answer">
+            <h3>Оберіть відповідь:</h3>
+            <form name="f" action="javascript: next()" method="POST">
+
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="./script.js"></script>
+    <script type="text/javascript" src="./questions.json"></script>
+</body>
+
+</html>
